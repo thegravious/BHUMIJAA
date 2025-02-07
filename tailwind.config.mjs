@@ -10,6 +10,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "button-color": "#82B440",
+        "background-color": "#FFFFFF",
+        "secondary-text": "#79A204",
+        "primary-text": "#262626",
+        "card-background": "#F4F4F4",
+        "hover-button" : "#78a63b",
+        "hover-text" : "#78a63b",
+        "font-title-bold" : "200px"
       },
     },
   },

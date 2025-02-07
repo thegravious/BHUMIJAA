@@ -1,0 +1,6 @@
+button-color : #82B440
+background-color : white
+secondary-text-color : #79A204
+primary-text-color : 262626
+card-background-color : F4F4F4
+icon-size : xl
