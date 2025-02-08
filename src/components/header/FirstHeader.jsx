@@ -7,16 +7,16 @@ import Link from 'next/link';
 
 const FirstHeader = () => {
     return (
-        <div>
-            <div className='flex items-center justify-between p-5'>
+        <div className='bg-transparent bg-opacity-70 w-full absolute'>
+            <div className='z-10 flex w-full items-center justify-between p-5'>
                 <div className='flex items-center'>
-                    <input className='focus:outline-none mr-2 p-1 text-gray-500' placeholder='Search Product' type="text" name="" id="" />
+                    <input className='focus:outline-none bg-transparent mr-2 p-1 text-gray-500' placeholder='Search Product' type="text" name="" id="" />
                     <FiSearch className='text-2xl' />
                 </div>
                 <div>
                     {/* <img src="favicon.ico" className='w-10' alt="" /> */}
                     <Link href="/">
-                        <p className='text-4xl font-black'>
+                        <p className='text-4xl text-secondary-text font-black'>
                             BHUMIJAA
                         </p>
                     </Link>
