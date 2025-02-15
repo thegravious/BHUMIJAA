@@ -12,8 +12,8 @@ const SecondHeader = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 600) {
-                setBgColor("bg-white bg-opacity-90");
+            if (window.scrollY > 100) {
+                setBgColor("bg-white bg-opacity-95");
                  setTextColor("text-gray-500")
             } else {
                 setBgColor("bg-transparent");
@@ -26,7 +26,7 @@ const SecondHeader = () => {
 
     return (
         <div className="sticky top-0 z-50">
-            <nav className={`${bgColor} fixed w-full flex items-center justify-evenly transition-all duration-400`}>
+            <nav className={`${bgColor} fixed w-full flex items-center justify-evenly transition-all duration-500`}>
                 <div className="p-4">
                     <Link href="/">
                         <p className="text-4xl text-secondary-text font-black">
