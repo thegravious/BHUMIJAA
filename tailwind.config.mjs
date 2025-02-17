@@ -13,6 +13,7 @@ export default {
         "button-color": "#82B440",
         "background-color": "#FFFFFF",
         "secondary-text": "#79A204",
+        "primary-bg" : "#79A204",
         "primary-text": "#262626",
         "card-background": "#F4F4F4",
         "hover-button" : "#78a63b",

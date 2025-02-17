@@ -25,8 +25,8 @@ const SecondHeader = () => {
     }, []);
 
     return (
-        <div className="sticky top-0 z-50">
-            <nav className={`${bgColor} fixed w-full flex items-center justify-evenly transition-all duration-500`}>
+        <div className="fixed top-0 z-50">
+            <nav className={`${bgColor} w-full flex items-center justify-evenly transition-all duration-500`}>
                 <div className="p-4">
                     <Link href="/">
                         <p className="text-4xl text-secondary-text font-black">
@@ -35,11 +35,11 @@ const SecondHeader = () => {
                     </Link>
                 </div>
                 <div className={`container flex items-center justify-center p-6 mx-auto ${textColor} capitalize`}>
-                    <a href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Home</a>
-                    <a href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Shop</a>
-                    <a href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Blog</a>
-                    <a href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Pages</a>
-                    <a href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Contact Us</a>
+                    <Link href="/" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Home</Link>
+                    <Link href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Shop</Link>
+                    <Link href="/blogs" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Blog</Link>
+                    <Link href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Pages</Link>
+                    <Link href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Contact Us</Link>
                 </div>
                 <div className={`flex items-center justify-evenly ${textColor} w-[650px] p-4`}>
                     <input className='bg-transparent text-gray-400 focus:outline-none' placeholder='Search Product' type="text" name="" id="" />
