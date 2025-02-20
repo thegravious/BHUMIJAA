@@ -36,7 +36,7 @@ const SecondHeader = () => {
                 </div>
                 <div className={`container flex items-center justify-center p-6 mx-auto ${textColor} capitalize`}>
                     <Link href="/" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Home</Link>
-                    <Link href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Shop</Link>
+                    <Link href="/shop" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Shop</Link>
                     <Link href="/blogs" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Blog</Link>
                     <Link href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Pages</Link>
                     <Link href="#" className="hover:text-hover-text font-bold uppercase text-[14.5px] transition-colors duration-300 ml-14">Contact Us</Link>
