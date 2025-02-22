@@ -7,12 +7,12 @@ const ProductCard = ({ img }) => {
       <div className="flex justify-center my-20">
         <div className="lg:mx-8 lg:flex lg:max-w-5xl">
           <div className="lg:w-1/2">
-          <Link href={"/"}>
+          <Link href={`/shop/${img}`}>
             <img src={`${img}.png`} alt="" />
           </Link>
           </div>
           <div className="flex flex-col justify-center px-6 lg:px-12 max-w-xl lg:max-w-5xl lg:w-1/2">
-            <Link href={"/shop/productdetail"}>
+            <Link href={`/shop/${img}`}>
               <h1 className="text-xl text-gray-800 uppercase font-bold">
                 product title
               </h1>
