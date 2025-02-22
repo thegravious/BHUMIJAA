@@ -1,11 +1,11 @@
 import React from 'react'
-import Secondheader from "../../components/header/SecondHeader"
+import FirstHeader from "../../components/header/FirstHeader"
 import Footer from "../../components/footer/Footer"
 
 const layout = ({children}) => {
   return (
     <div>
-        <Secondheader/>
+        <FirstHeader/>
         <div className='min-h-screen'>
           {children}
         </div>
