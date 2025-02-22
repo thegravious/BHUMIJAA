@@ -89,9 +89,9 @@ const page = () => {
                     </div>
                 </div>
             </div>
-                <div className='my-10  p-10'>
-                    <p className='text-3xl font-semibold font-serif text-center'>Product Description</p>
-                    <h2 className='text-2xl mb-5'>Product title</h2>
+                <div className='my-10 p-4 lg:p-10'>
+                    <p className='lg:text-3xl font-semibold font-serif text-2xl lg:text-center'>Product Description</p>
+                    <h2 className='text-2xl lg:mb-5 mt-5'>Product title</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam modi minus officiis quis eligendi quae magnam eius repellendus? Quia asperiores assumenda inventore eius nulla dolore aliquam animi commodi mollitia vel!
                         Totam iste, odio tenetur voluptates veniam accusamus dolores. Delectus, itaque. Perferendis cum ipsum libero ipsa voluptatibus omnis et vero accusantium deserunt laudantium? Quidem dolores ex explicabo beatae possimus? Quibusdam, aut!
