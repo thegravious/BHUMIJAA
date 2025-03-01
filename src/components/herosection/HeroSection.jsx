@@ -12,7 +12,7 @@ const HeroSection = () => {
                 <div className='mt-14'>
                     <h1 className='text-7xl font-black text-center w-full uppercase'>Where Green Meets Grace.</h1>
                 </div>
-                <div className='relative left-20 w-2/4 mt-16'>
+                <div className='relative left-20 w-2/4 mt-16 lg:block hidden'>
                     <Link className='bg-button-color font-black text-gray-300 hover:bg-hover-button py-4 text-xl  px-20' href="">Adopt A Leaf</Link>
                 </div>
             </div>
