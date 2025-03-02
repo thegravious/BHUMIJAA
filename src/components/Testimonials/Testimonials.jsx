@@ -72,12 +72,13 @@ const Testimonials = () => {
     const [currentIndex, setIndex] = React.useState(0)
 
 
-    setInterval(() => {
-        setIndex(currentIndex + 1)
-        if(currentIndex == 9){
-            setIndex(0)
-        }
-    }, 5000);
+    React.useEffect(() => {
+        const interval = setInterval(() => {
+            setIndex(prevIndex => (prevIndex + 1) % testimonials.length);
+        }, 5000);
+
+        return () => clearInterval(interval);
+    }, []);
 
 
     return (

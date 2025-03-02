@@ -14,7 +14,7 @@ const HomeProductCard = ({ img }) => {
                 </Link>
                 <div className="flex items-center justify-between px-4 py-2 bg-gray-200">
                     <h1 className="text-lg font-bold">$129</h1>
-                    <button className="bg-button-color text-white hover:bg-hover-button hover:text-white text-xs inline-block px-4 py-1">Add To Cart</button>
+                    <button className="bg-button-color text-white rounded-md hover:bg-hover-button hover:text-white text-xs inline-block px-4 py-1">Add To Cart</button>
                 </div>
             </div>
         </div>
