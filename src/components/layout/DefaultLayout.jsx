@@ -1,9 +1,10 @@
 import React from 'react'
-import FirstHeader from '../header/FirstHeader'
 import SecondHeader from '../header/SecondHeader'
 import HeroSection from '../herosection/HeroSection'
 import OurProduct from '../ourproducts/OurProduct'
-import Video from "../Video/Video"
+import Banner from '../Banner/Banner'
+import BestSeller from '../BestSeller/BestSeller'
+import Testimonials from '../Testimonials/Testimonials'
 
 const DefaultLayout = () => {
   return (
@@ -12,7 +13,9 @@ const DefaultLayout = () => {
         <SecondHeader/>
         <HeroSection/>
         <OurProduct/>
-        <Video/>
+        <Banner/>
+        <BestSeller/>
+        <Testimonials/>
     </div>
   )
 }

@@ -22,7 +22,7 @@ const OurProduct = () => {
         </div>
 
         {/* Explore More Button */}
-        <div className='w-full flex justify-center mt-6'>
+        <div className='w-full flex justify-center mt-12'>
           <Link 
             className="bg-button-color text-xl text-white hover:bg-hover-button hover:text-white px-10 py-2 flex justify-center items-center w-full max-w-[250px]"
             href="/shop"
