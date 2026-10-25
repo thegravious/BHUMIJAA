@@ -1,0 +1,61 @@
+
+const shop = [
+  {
+    id: 2,
+    extension: "BH7K2M9X4P",
+    title: "Cherrish Gold Comfort",
+    price: "₹2,499",
+    description: "Discover how mattresses improve comfort and create restful bedtime routines.",
+  },
+  {
+    id: 3,
+    extension: "BH3N8Q5R1T",
+    title: "Cherrish Memory Comfort",
+    price: "₹3,499",
+    description: "Enjoy body-contouring comfort with balanced cushioning and support every night.",
+  },
+  {
+    id: 4,
+    extension: "BH9P4W2L6C",
+    title: "Cherrish Silver Comfort",
+    price: "₹4,499",
+    description: "Experience premium comfort and reliable support for peaceful everyday sleep.",
+  },
+  {
+    id: 5,
+    extension: "BH5X7D3M8A",
+    title: "Cherrish Royal Sleep",
+    price: "₹2,999",
+    description: "Relax every night with comfortable cushioning and dependable everyday support.",
+  },
+  {
+    id: 6,
+    extension: "BH2R6K9V4N",
+    title: "Cherrish High Density",
+    price: "₹1,999",
+    description: "Choose versatile high-density foam for mattress making and cushioning applications.",
+  },
+  {
+    id: 7,
+    extension: "BH8T1Y5J3Q",
+    title: "Cherrish Supreme Comfort",
+    price: "₹3,999",
+    description: "Create a relaxing bedroom with comfort for everyday restful sleep.",
+  },
+  {
+    id: 8,
+    extension: "BH4C9Z2F7L",
+    title: "Cherrish Plush Pillow",
+    price: "₹799",
+    description: "Enhance bedding with a cosy pillow for comfortable nightly relaxation.",
+  },
+  {
+    id: 9,
+    extension: "BH6M3A8P5W",
+    title: "Cherrish Dream Comfort",
+    price: "₹3,299",
+    description: "Enjoy restful nights with a mattress designed for everyday relaxation.",
+  },
+];
+
+export default shop;
