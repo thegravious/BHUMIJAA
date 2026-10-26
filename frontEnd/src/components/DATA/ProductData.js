@@ -1,7 +1,7 @@
-
 const shop = [
   {
     id: 2,
+    image: "hero2.2.jpg",
     extension: "BH7K2M9X4P",
     title: "Cherrish Gold Comfort",
     price: "₹2,499",
@@ -9,6 +9,7 @@ const shop = [
   },
   {
     id: 3,
+    image: "hero1.2.jpg",
     extension: "BH3N8Q5R1T",
     title: "Cherrish Memory Comfort",
     price: "₹3,499",
@@ -16,6 +17,7 @@ const shop = [
   },
   {
     id: 4,
+    image: "hero1.3.jpg",
     extension: "BH9P4W2L6C",
     title: "Cherrish Silver Comfort",
     price: "₹4,499",
@@ -23,6 +25,7 @@ const shop = [
   },
   {
     id: 5,
+    image: "hero2.2.jpg",
     extension: "BH5X7D3M8A",
     title: "Cherrish Royal Sleep",
     price: "₹2,999",
@@ -30,6 +33,7 @@ const shop = [
   },
   {
     id: 6,
+    image: "hero1.5.jpg",
     extension: "BH2R6K9V4N",
     title: "Cherrish High Density",
     price: "₹1,999",
@@ -37,6 +41,7 @@ const shop = [
   },
   {
     id: 7,
+    image: "hero1.6.jpg",
     extension: "BH8T1Y5J3Q",
     title: "Cherrish Supreme Comfort",
     price: "₹3,999",
@@ -44,6 +49,7 @@ const shop = [
   },
   {
     id: 8,
+    image: "hero1.7.jpg",
     extension: "BH4C9Z2F7L",
     title: "Cherrish Plush Pillow",
     price: "₹799",
@@ -51,6 +57,7 @@ const shop = [
   },
   {
     id: 9,
+    image: "hero1.9.jpg",
     extension: "BH6M3A8P5W",
     title: "Cherrish Dream Comfort",
     price: "₹3,299",

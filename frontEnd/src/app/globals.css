@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@400;700;900&display=swap'); */
 
 
 body {
@@ -9,4 +10,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #262626;
   cursor: url("../../public/bhumija-cursor-removebg-preview.png") , auto;
+}
+
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
 }

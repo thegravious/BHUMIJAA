@@ -10,7 +10,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        "button-color": "#82B440",
+        "button-color": "#79A204",
         "background-color": "#FFFFFF",
         "secondary-text": "#79A204",
         "primary-bg" : "#79A204",

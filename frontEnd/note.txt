@@ -4,3 +4,14 @@ secondary-text-color : #79A204
 primary-text-color : 262626
 card-background-color : F4F4F4
 icon-size : xl
+
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">

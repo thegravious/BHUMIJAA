@@ -1,42 +1,78 @@
 import React from "react";
 
 const Footer = () => {
-    return (
-        <footer className="bg-gray-100 p-8 font-sans tracking-wide">
-      <div className="max-w-screen-xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="sm:col-span-2 max-w-sm">
-            <h4 className="text-base font-semibold mb-6 text-primary-text">About Us</h4>
-            <p className="text-primary-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida, mi eu
-              pulvinar cursus, sem elit interdum mauris.</p>
+  return (
+    <footer className="bg-black flex font-sans tracking-wide">
+      {/* Video section — 30% of screen height */}
+      <div className="h-[70vh] w-[40%] p-10 overflow-hidden">
+        <video
+          src="/TrialVideo.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="h-full w-full object-cover"
+        />
+      </div>
+
+      {/* Footer content — remaining section */}
+      <div className="flex min-h-[70vh] flex-col justify-between px-8 py-12">
+        <div className="mx-auto grid w-full max-w-screen-xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="max-w-sm sm:col-span-2">
+            <h4 className="mb-6 text-base font-semibold text-white">
+              About Us
+            </h4>
+            <p className="text-sm leading-7 text-gray-400">
+              BHUMIJAA brings comfort and quality together, helping you enjoy
+              better rest with mattresses designed for everyday living.
+            </p>
           </div>
 
           <div>
-            <h4 className="text-base font-semibold mb-6 text-primary-text">Services</h4>
+            <h4 className="mb-6 text-base font-semibold text-white">
+              Quick Links
+            </h4>
             <ul className="space-y-3">
-              <li><a href="javascript:void(0)" className="text-primary-text hover:text-primary-text text-sm">Web Development</a></li>
-              <li><a href="javascript:void(0)" className="text-primary-text hover:text-primary-text text-sm">Mobile App Development</a>
+              <li>
+                <a href="/shop" className="text-sm text-gray-400 transition hover:text-white">
+                  Shop Mattresses
+                </a>
               </li>
-              <li><a href="javascript:void(0)" className="text-primary-text hover:text-primary-text text-sm">UI/UX Design</a></li>
-              <li><a href="javascript:void(0)" className="text-primary-text hover:text-primary-text text-sm">Digital Marketing</a></li>
+              <li>
+                <a href="/" className="text-sm text-gray-400 transition hover:text-white">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="text-sm text-gray-400 transition hover:text-white">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="text-sm text-gray-400 transition hover:text-white">
+                  Contact Us
+                </a>
+              </li>
             </ul>
           </div>
 
           <div className="space-y-3">
-            <h4 className="text-base font-semibold mb-6 text-primary-text">Contact Us</h4>
-            <p className="text-primary-text text-sm">123 Main Street</p>
-            <p className="text-primary-text text-sm">City, State, Country</p>
-            <p className="text-primary-text text-sm">contact@example.com</p>
-            <p className="text-primary-text text-sm">+1 234 567 890</p>
+            <h4 className="mb-6 text-base font-semibold text-white">
+              Contact Us
+            </h4>
+            <p className="text-sm text-gray-400">India</p>
+            <p className="text-sm text-gray-400">contact@bhumijaa.com</p>
           </div>
         </div>
 
-        <div className="mt-12">
-          <p className='text-primary-text text-sm'>© BHUMIJAA. All rights reserved.</p>
+        <div className="mx-auto mt-12 w-full max-w-screen-xl border-t border-white/15 pt-6">
+          <p className="text-sm text-gray-500">
+            © {new Date().getFullYear()} BHUMIJAA. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
-    );
+  );
 };
 
 export default Footer;

@@ -1,38 +1,28 @@
-
 import React from "react";
 import Link from "next/link";
 
-const HomeProductCard = ({ img , data }) => {
+const HomeProductCard = ({ img }) => {
   return (
-    <div className="w-full max-w-xs h-[350px] flex flex-col justify-between overflow-hidden bg-white shadow-lg">
-      <Link href={`/shop/${img.extension}`}>
-        <img
-          className="object-cover w-full h-48"
-          src={`${img.id}.png`}
-          alt={img.title}
-        />
-
-        <div className="px-4 py-2">
-          <h1 className="text-xl font-bold uppercase">
-            {img.title}
-          </h1>
-
-          <p className="mt-1 text-sm text-gray-600">
-            {img.description}
-          </p>
-        </div>
-      </Link>
-
-      <div className="flex items-center justify-between px-4 py-2 bg-gray-200">
-        <h1 className="text-lg font-bold">{img.price}</h1>
-
-        <button
-          type="button"
-          className="bg-button-color text-white rounded-md hover:bg-hover-button text-xs inline-block px-4 py-1"
+    <div className="flex h-[340px] flex-col items-center overflow-hidden sm:h-[420px] lg:h-[480px]">
+      {/* Image only is clickable */}
+      <div className="flex min-h-0 flex-1 items-center justify-center">
+        <Link
+          href={`/shop/${img.extension}`}
+          aria-label={img.title}
+          className="inline-block max-h-full max-w-full"
         >
-          Add To Cart
-        </button>
+          <img
+            src={`/${img.image}`}
+            alt={img.title}
+            className="block max-h-[280px] w-auto max-w-full object-contain sm:max-h-[350px] lg:max-h-[400px]"
+          />
+        </Link>
       </div>
+
+      {/* Title outside the link */}
+      <p className="w-full pb-4 text-center  text-black text-xl font-light">
+        {img.title}
+      </p>
     </div>
   );
 };

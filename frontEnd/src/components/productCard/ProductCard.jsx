@@ -9,7 +9,7 @@ const ProductCard = ({ data }) => {
         <div className="lg:mx-8 lg:flex lg:max-w-5xl">
           <div className="lg:w-1/2">
             <Link href={`/shop/${data.extension}`}>
-              <img src={`${data.id}.png`} alt={data.title} />
+              <img src={`${data.image}`} alt={data.title} />
             </Link>
           </div>
 
