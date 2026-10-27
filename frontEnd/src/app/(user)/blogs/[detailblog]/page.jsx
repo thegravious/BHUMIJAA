@@ -25,7 +25,7 @@ const Page = async ({ params }) => {
         </p>
 
         <img
-          src={`/${blog.id}.png`}
+          src={`/${blog.image}`}
           alt={blog.title}
           className="w-full mt-6 rounded-lg"
         />

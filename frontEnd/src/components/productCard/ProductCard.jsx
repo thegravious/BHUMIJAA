@@ -29,9 +29,11 @@ const ProductCard = ({ data }) => {
             </p>
 
             <div className="mt-3">
-              <button className="bg-button-color text-white hover:bg-hover-button hover:text-white inline-block px-10 py-2">
+              <Link href={`/placeorder/${data.extension}`}>
+              <button className="bg-black text-white hover:bg-[#FF9E20] hover:text-white inline-block px-10 py-2">
                 Add To Cart
               </button>
+              </Link>
             </div>
           </div>
         </div>

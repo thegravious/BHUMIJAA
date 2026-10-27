@@ -130,7 +130,7 @@ const Page = () => {
             <button
               type="submit"
               disabled={sending}
-              className="py-3 px-6 text-sm font-semibold text-white rounded-lg bg-[#82B440] hover:bg-[#79A204] disabled:opacity-60 disabled:cursor-not-allowed focus:ring-4 focus:outline-none focus:ring-[#82B440]/30 transition-colors duration-300"
+              className="w-full bg-[#1D2128] px-6 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#FF9E20] hover:text-[#1D2128] disabled:cursor-not-allowed disabled:opacity-60"
             >
               {sending ? "Sending..." : "Send message"}
             </button>

@@ -2,80 +2,82 @@
 
 import React, { useEffect, useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import data from '../../app/(user)/blogs/BlogData'
 
 const Testimonials = () => {
-  const testimonials = [
-    {
-      name: "Aarav Sharma",
-      review:
-        "Absolutely love the quality of the plants! Fresh, healthy, and delivered on time.",
-      rating: 5,
-      img: "2.png",
-    },
-    {
-      name: "Meera Kapoor",
-      review:
-        "Great service and an amazing collection. My home garden looks better than ever!",
-      rating: 4.5,
-      img: "3.png",
-    },
-    {
-      name: "Rohan Das",
-      review:
-        "Fast delivery and well-packaged plants. Highly recommend for plant lovers!",
-      rating: 5,
-      img: "4.png",
-    },
-    {
-      name: "Simran Khanna",
-      review:
-        "The discounts for members make it totally worth it. Will shop again soon!",
-      rating: 4,
-      img: "5.png",
-    },
-    {
-      name: "Vikram Patel",
-      review:
-        "Customer service was super helpful in guiding me to the right plants for my space.",
-      rating: 5,
-      img: "6.png",
-    },
-    {
-      name: "Priya Verma",
-      review:
-        "The website is easy to navigate, and the plants are exactly as described.",
-      rating: 4.5,
-      img: "7.png",
-    },
-    {
-      name: "Aditya Malhotra",
-      review:
-        "I love how fresh and vibrant my plants look. Packaging was eco-friendly too!",
-      rating: 5,
-      img: "8.png",
-    },
-    {
-      name: "Neha Singh",
-      review:
-        "Good pricing and variety, but I wish there were more indoor plant options.",
-      rating: 4,
-      img: "9.png",
-    },
-    {
-      name: "Kabir Joshi",
-      review:
-        "Excellent quality and quick support. My plants arrived in perfect condition!",
-      rating: 5,
-      img: "10.png",
-    },
-    {
-      name: "Ananya Rao",
-      review:
-        "Very satisfied with my purchase. The plants have made my workspace much livelier!",
-      rating: 4.5,
-      img: "11.png",
-    },
-  ];
+
+const testimonials = [
+  {
+    name: "Aarav Sharma",
+    review:
+      "Absolutely love the quality of the plants! Fresh, healthy, and delivered on time.",
+    rating: 5,
+    img: "hero1.1.webp",
+  },
+  {
+    name: "Meera Kapoor",
+    review:
+      "Great service and an amazing collection. My home garden looks better than ever!",
+    rating: 4.5,
+    img: "hero1.2.jpg",
+  },
+  {
+    name: "Rohan Das",
+    review:
+      "Fast delivery and well-packaged plants. Highly recommend for plant lovers!",
+    rating: 5,
+    img: "hero1.3.jpg",
+  },
+  {
+    name: "Simran Khanna",
+    review:
+      "The discounts for members make it totally worth it. Will shop again soon!",
+    rating: 4,
+    img: "hero1.4.jpg",
+  },
+  {
+    name: "Vikram Patel",
+    review:
+      "Customer service was super helpful in guiding me to the right plants for my space.",
+    rating: 5,
+    img: "hero1.5.jpg",
+  },
+  {
+    name: "Priya Verma",
+    review:
+      "The website is easy to navigate, and the plants are exactly as described.",
+    rating: 4.5,
+    img: "hero1.6.jpg",
+  },
+  {
+    name: "Aditya Malhotra",
+    review:
+      "I love how fresh and vibrant my plants look. Packaging was eco-friendly too!",
+    rating: 5,
+    img: "hero1.7.jpg",
+  },
+  {
+    name: "Neha Singh",
+    review:
+      "Good pricing and variety, but I wish there were more indoor plant options.",
+    rating: 4,
+    img: "hero1.8.png",
+  },
+  {
+    name: "Kabir Joshi",
+    review:
+      "Excellent quality and quick support. My plants arrived in perfect condition!",
+    rating: 5,
+    img: "hero1.9.jpg",
+  },
+  {
+    name: "Ananya Rao",
+    review:
+      "Very satisfied with my purchase. The plants have made my workspace much livelier!",
+    rating: 4.5,
+    img: "hero1.1.webp",
+  },
+];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -103,7 +105,7 @@ const Testimonials = () => {
   const currentTestimonial = testimonials[currentIndex];
 
   return (
-    <section className="flex w-full items-center justify-center bg-black font-sans text-white">
+    <section className=" mt-10 flex w-full items-center justify-center  font-sans text-black">
       <div className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
         {/* Heading */}
         <h2 className="text-center font-serif text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl">
@@ -146,7 +148,7 @@ const Testimonials = () => {
             aria-live="polite"
             aria-atomic="true"
           >
-            <p className="mx-auto min-h-[120px] max-w-2xl text-sm leading-7 text-gray-200 sm:min-h-[100px] sm:text-base sm:leading-8 md:text-lg">
+            <p className="mx-auto min-h-[120px] max-w-2xl text-sm leading-7 text-black sm:min-h-[100px] sm:text-base sm:leading-8 md:text-lg">
               “{currentTestimonial.review}”
             </p>
 

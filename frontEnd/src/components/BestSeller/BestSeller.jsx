@@ -4,7 +4,6 @@ import HomeProductCard from "../HomeProductCard/HomeProductCard";
 import data from '../DATA/ProductData'
 
 const BestSeller = () => {
-
   return (
     <div className="min-h-[80vh] flex flex-col bg-black items-center">
       <h1 className="text-6xl text-white text-center font-serif mt-10">
@@ -15,7 +14,7 @@ const BestSeller = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-7 mt-10 place-items-center">
         {data.slice(0,).map((data) => (
-          <HomeProductCard key={data.id} img={data} />
+          <HomeProductCard  key={data.id} img={data} data = "bg-black" />
         ))}
       </div>
     </div>

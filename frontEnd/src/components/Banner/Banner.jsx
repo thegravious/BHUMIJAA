@@ -32,7 +32,7 @@ const Banner = () => {
 
             <Link
               href="/shop"
-              className="ml-1 mt-6 inline-flex items-center gap-3 border border-white bg-white/10 px-6 py-3 text-sm font-medium text-white backdrop-blur-sm transition duration-300 hover:bg-white hover:text-black sm:ml-4 sm:text-base lg:ml-0"
+              className="ml-1 mt-6 inline-flex items-center gap-3 border border-white hover:border-[#FF9E20] bg-white/10 px-6 py-3 text-sm font-medium text-white backdrop-blur-sm transition duration-300 hover:bg-[#FF9E20] hover:text-black sm:ml-4 sm:text-base lg:ml-0"
             >
               Explore Mattresses
               <span aria-hidden="true">→</span>

@@ -11,7 +11,7 @@ const Blogcard = ({ data }) => {
                     <Link href={`/blogs/${data.extension}`}>
                         <img
                             className="object-cover object-center w-full h-56"
-                            src={`/${data.id}.png`}
+                            src={`/${data.image}`}
                             alt={data.title}
                         />
                     </Link>
@@ -43,7 +43,7 @@ const Blogcard = ({ data }) => {
                     <div className="mt-auto pt-6 flex justify-end">
                         <Link
                             href={`/blogs/${data.extension}`}
-                            className="inline-block bg-button-color px-10 py-2 text-white hover:bg-hover-button"
+                            className="bg-black text-white hover:bg-[#FF9E20] hover:text-white inline-block px-10 py-2"
                         >
                             Read More
                         </Link>

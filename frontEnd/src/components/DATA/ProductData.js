@@ -25,7 +25,7 @@ const shop = [
   },
   {
     id: 5,
-    image: "hero2.2.jpg",
+    image: "hero1.4.jpg",
     extension: "BH5X7D3M8A",
     title: "Cherrish Royal Sleep",
     price: "₹2,999",

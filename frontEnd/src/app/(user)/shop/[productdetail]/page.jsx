@@ -96,7 +96,7 @@ const Page = async ({ params }) => {
         {/* Place order */}
         <Link
           href={`/placeorder/${product.extension}`}
-          className="mt-7 inline-flex min-h-12 w-full items-center justify-center bg-black px-6 py-4 text-center text-xs font-semibold uppercase tracking-[0.15em] text-white transition hover:bg-gray-800 sm:mt-8 sm:w-80 sm:text-sm sm:tracking-widest"
+          className="mt-7 inline-flex min-h-12 w-full items-center justify-center bg-black px-6 py-4 text-center text-xs font-semibold uppercase tracking-[0.15em] text-white transition hover:bg-[#FF9E20] sm:mt-8 sm:w-80 sm:text-sm sm:tracking-widest"
         >
           Place Order
         </Link>
